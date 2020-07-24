@@ -33,21 +33,20 @@ As per https://learn.pimoroni.com/tutorial/raspberry-pi/keeping-your-raspberry-p
     
 # Install Unicorn HAT
 
-See https://github.com/pimoroni/unicorn-hat and
-https://learn.pimoroni.com/tutorial/unicorn-hat/getting-started-with-unicorn-hat
+See https://github.com/pimoroni/unicorn-hat-hd
 
 Installation boils down to running :
 
-    curl -sS https://get.pimoroni.com/unicornhat | bash
+    curl -sS https://get.pimoroni.com/unicornhathd | bash
 
 Or manually with
 
-    git clone https://github.com/pimoroni/unicorn-hat.git
+    git clone https://github.com/pimoroni/unicorn-hat-hd
     cd unicorn-hat/library/UnicornHat
     cd ../../examples/
 
 Then you can run examples with :
     
-    cd ~/Pimoroni/unicornhat/examples/
+    cd ~/Pimoroni/unicornhathd/examples/
     sudo python ./simple.py
     
